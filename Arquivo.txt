@@ -1,0 +1,17 @@
+git config --global user.name "nome" (definir nome do usuário)
+
+git config --global user.email "email@email.com" (definir e-mail do usuário)
+
+git init (cria a estrutura inicial do repositório Git no computador local)
+
+git add * (adiciona arquivos ao histórico do projeto, no staging)
+
+git commit -m "comentário" (registra/salva alterações no repositório)
+
+git log (permite visualizar alteções feitas)
+
+git remote add origin "endereço" (informa a pasta remota)
+
+git remote -v (permite visualizar o repositório remoto)
+
+git push -u origin master (publica as alterações no repositório remoto)
